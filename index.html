@@ -7,28 +7,37 @@
     <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="container">
+    <header>
       <div class="js-clock">
         <h1>
           00:00ss
         </h1>
       </div>
-      <form class="js-form form">
-        <input type="text" placeholder="What is your name?🦝" />
-      </form>
-      <h4 class="js-greetings greetings"></h4>
-      <form class="js-toDoForm">
-        <input type="text" placeholder="Write to do" />
-      </form>
-
+      <div>
+        <form class="js-form form">
+          <input type="text" placeholder="What is your name?🐺" />
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+        <form class="js-toDoForm">
+          <input type="text" placeholder="🤔 Today my plan is.." />
+        </form>
+      </div>
+      <div class="bottom">
+        <span class="js-weather"></span>
+        <span class="ref">
+          Photo by
+          <a href="https://www.instagram.com/filmcyan">@filmcyan</a>
+        </span>
+      </div>
+    </header>
+    <div class="container">
       <ul class="js-toDoList"></ul>
-      <span class="js-weather"></span>
-      <script src="index.js"></script>
-      <script src="clock.js"></script>
-      <script src="greeting.js"></script>
-      <script src="todo.js"></script>
-      <script src="bg.js"></script>
-      <script src="weather.js"></script>
     </div>
+    <script src="index.js"></script>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
   </body>
 </html>
